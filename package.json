@@ -2,13 +2,17 @@
   "name": "expo-app",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://agropackaging.github.io/expo-app/",
   "scripts": {
+    "predeploy":"npm run serve",
+    "deploy":"gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "gh-pages": "^3.2.3",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0"
